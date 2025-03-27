@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <header>
+        <h2>Welcome, Student</h2>
+        <button id="logout">Logout</button>
+    </header>
+
+    <section class="content">
+        <div class="box">
+            <h3>Course PPTs</h3>
+            <ul id="pptList">
+                <li><a href="#">Week 1 - Introduction</a></li>
+                <li><a href="#">Week 2 - Basics</a></li>
+            </ul>
+        </div>
+
+        <div class="box">
+            <h3>Assignments</h3>
+            <ul id="assignmentList">
+                <li>Task 1 - <input type="file"></li>
+                <li>Task 2 - <input type="file"></li>
+            </ul>
+            <button id="submitAssignment">Submit</button>
+        </div>
+    </section>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
